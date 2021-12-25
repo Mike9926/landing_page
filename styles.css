@@ -1,0 +1,184 @@
+
+
+body {
+    align-items: center;
+    justify-content: center;
+
+}
+/* Style for the header*/
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+    height: 40px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    gap: 430px;
+    
+    
+    
+
+}
+/* links*/
+.right {
+    display: flex;
+    gap: 10px;  
+}
+ a {
+     text-decoration: none;
+     color: white;
+ }
+a:hover {
+    color: lightslategray;
+}
+/*top container*/
+.topcontainer {
+    display: flex;
+    color: white;
+    background-color:#1f2937;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    
+}
+/* Top container left side */
+    
+.discription {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 400px;
+    margin: 1px;
+    
+}
+.button {
+    width: 80px;
+    background-color:#3882F6 ;
+    color:white;
+    border-radius: 5px;
+    border-color: #3882F6;
+}
+.sign {
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+/*top container left side */
+
+.placeholder {
+display: flex;
+background: grey;
+width: 300px;
+height: 150px;
+margin: 15px;
+justify-content: center;
+align-items: center;
+}
+
+.middlesubtext {
+    text-align: center;
+    font-size: 25px;
+}
+
+/* Middle container*/
+.middlecontainer {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px;
+}
+
+.illustration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    max-width: 200px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.box {
+    
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-color: blue;
+    border-radius: 5px;
+    border-style: solid;
+}
+.qoutecontainer{
+    display: flex;
+    background-color: lightgray;
+    flex-direction: column;
+    padding: 15px;
+    height: 200px;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.qoute {
+    font-size: 25px;
+    max-width: 500px;
+    font-style: italic;
+}
+.author {
+    display: flex;
+    float: right;
+    width: 600px;
+    flex-direction: row-reverse;
+    font-weight: bold;
+}
+.lastcontainer {
+    display: flex;
+    background-color: blue;
+    margin: 80px;
+    width: 700px;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    
+}
+.action {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    
+}
+.call{
+    font-size: 25px;
+}
+.footer {
+    background-color:#1f2937 ;
+    color: white;
+    height: 50px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.buttondown {
+    width: 80px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
