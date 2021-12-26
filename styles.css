@@ -40,6 +40,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     gap: 60px;
+    width: 100%;
     
 }
 /* Top container left side */
@@ -89,6 +90,7 @@ align-items: center;
     align-items: center;
     text-align: center;
     margin: 50px;
+    width: 100%;
 }
 
 .illustration {
